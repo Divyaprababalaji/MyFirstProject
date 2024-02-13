@@ -5,13 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Counter from './Counter';
 import AgeName from'./AgeName';
+import ColorChange from './ColorChange';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
   {/* <Counter /> */}
-  <AgeName />
+  {/* <AgeName /> */}
+  <ColorChange/>
   </React.StrictMode>
 );
 
