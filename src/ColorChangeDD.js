@@ -4,7 +4,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
 import { useEffect, useState } from "react";
 
-// import Colordata from './Colordata.json'
+import Colordata from './Colordata.json'
 
 function ColorChangeDD() {
   const [divcolor, setDivcolor] = useState("pink");
@@ -12,22 +12,22 @@ function ColorChangeDD() {
   const [divwidth, setDivwidth] = useState(0);
   // useEffect()
 
-  const Colorlocaldata={
-    "colors": [
-      {
-        "blue": "Blue"
-      },
-      {
-        "red": "Red"
-      },
-      {
-        "green": "Green"
-      },
-      {
-        "yellow": "Yellow"
-      }
-    ]
-  }
+  // const Colorlocaldata={
+  //   "colors": [
+  //     {
+  //       "blue": "Blue"
+  //     },
+  //     {
+  //       "red": "Red"
+  //     },
+  //     {
+  //       "green": "Green"
+  //     },
+  //     {
+  //       "yellow": "Yellow"
+  //     }
+  //   ]
+  // }
   
 
   const handleColorChange = (e) => {
@@ -56,7 +56,7 @@ function ColorChangeDD() {
         onChange={handleColorChange}
       >
         {/* <MenuItem value={"blue"}>Blue</MenuItem> */}
-         {Colorlocaldata.colors.length>0 && Colorlocaldata.colors.map((e,index)=>{
+         {Colordata.colors.length>0 && Colordata.colors.map((e,index)=>{
           return <MenuItem key={index} value={Object.entries(e)[0][0]}>{Object.entries(e)[0][1]}</MenuItem>
         })}
         
