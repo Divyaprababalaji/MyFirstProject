@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Counter from './Counter';
 import AgeName from'./AgeName';
 import ColorChange from './ColorChange';
+import ColorChangeDD from './ColorChangeDD';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +15,9 @@ root.render(
     {/* <App /> */}
   {/* <Counter /> */}
   {/* <AgeName /> */}
-  <ColorChange/>
+  {/* <ColorChange/> */}
+  <ColorChangeDD />
+  
   </React.StrictMode>
 );
 
