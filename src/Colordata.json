@@ -1,0 +1,25 @@
+{
+  "colors": [
+    {
+      "blue": "Blue"
+    },
+    {
+      "red": "Red"
+    },
+    {
+      "green": "Green"
+    },
+    {
+      "yellow": "Yellow"
+    },
+    {
+      "darkviolet": "Violet"
+    },
+    {
+      "black": "Black"
+    },
+    {
+      "grey": "Grey"
+    }
+  ]
+}
