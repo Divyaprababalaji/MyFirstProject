@@ -6,36 +6,41 @@ import { useEffect, useState } from "react";
 import Recipedata from "./Recipedata.json";
 
 function Recipe() {
-  const [selectedrecipename, setSelectedrecipename] = useState("Classic Margherita Pizza");
-  const defaultrecipe=Recipedata?.recipes?.filter((e)=>{
-    return e.name==="Classic Margherita Pizza"
-  })
-  const [filteredrecipe,setFilteredrecipe] = useState(defaultrecipe);
-  useEffect(() => {}, [selectedrecipename,filteredrecipe]);
+  const [selectedrecipename, setSelectedrecipename] = useState(
+    "Classic Margherita Pizza"
+  );
+  const defaultrecipe = Recipedata?.recipes?.filter((e) => {
+    return e.name === "Classic Margherita Pizza";
+  });
+  const [filteredrecipe, setFilteredrecipe] = useState(defaultrecipe);
+  useEffect(() => {}, [selectedrecipename, filteredrecipe]);
   console.log(Recipedata);
 
-  const LocalRecipedata=Recipedata?.recipes;
+  const LocalRecipedata = Recipedata?.recipes;
   const handleRecipeChange = (e) => {
     setSelectedrecipename(e.target.value);
-    setFilteredrecipe(LocalRecipedata?.filter((ele)=>{
-
-      return ele.name===e.target.value
-    }))
+    setFilteredrecipe(
+      LocalRecipedata?.filter((ele) => {
+        return ele.name === e.target.value;
+      })
+    );
   };
-  // const handleRecipeNameChange = (e) => {
-  //   setRecipename(e.target.value);
-  // };
+  const IngredientsList = filteredrecipe[0]?.ingredients;
+  const Newingredients =IngredientsList.map((e)=>{
+   return <li>{e}</li>
+  });
+
   return (
     <>
       <div className="drpdwntext">
-        <InputLabel>Select your Recipe: </InputLabel>
-        <Select
+        <InputLabel><b>Select your Recipe:</b> </InputLabel>
+        <Select 
           value={selectedrecipename}
           label="Select your Recipe"
-          sx={{ width: 350 }}
+          sx={{ width: 350,fontFamily:"serif",fontSize:20}}
           onChange={handleRecipeChange}
         >
-                   {Recipedata.recipes.length > 0 &&
+          {Recipedata.recipes.length > 0 &&
             Recipedata.recipes.map((e, index) => {
               return (
                 <MenuItem key={index} value={e.name}>
@@ -43,8 +48,6 @@ function Recipe() {
                 </MenuItem>
               );
             })}
-
-
         </Select>
       </div>
 
@@ -57,22 +60,24 @@ function Recipe() {
           />
         </div>
         <div className="textsec">
-
-       <h1>
-        {filteredrecipe[0]?.name}
-       </h1>
-
+          <h1>{filteredrecipe[0]?.name}</h1>
         </div>
         <div className="instrsec">
-          <h2>Instruction:</h2>
-          <p>
-            {filteredrecipe[0]?.instructions}
-          </p>
+          <h2 style={{color:"cornsilk"}}>Instruction:</h2>
+          <p className="rcpcard">{filteredrecipe[0]?.instructions}</p>
+        </div>
+        <div className="ingredients">
+          <h2 style={{color:"cornsilk"}}>Ingredients:</h2>
+          <ul>
+            {/* {filteredrecipe[0]?.ingredients.map((e) => {
+              return <li>{e}</li>;
+            })} */}
+            {Newingredients}
+          </ul>
         </div>
       </div>
     </>
   );
-
-
 }
+
 export default Recipe;
