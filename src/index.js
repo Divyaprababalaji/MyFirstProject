@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
+import './index.css';
+import App22 from './App22';
 import reportWebVitals from './reportWebVitals';
 import Counter from './Counter';
 import AgeName from'./AgeName';
@@ -12,12 +13,8 @@ import ColorChangeDD from './ColorChangeDD';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-  {/* <Counter /> */}
-  {/* <AgeName /> */}
-  {/* <ColorChange/> */}
-  <ColorChangeDD />
   
+  <App />
   </React.StrictMode>
 );
 
