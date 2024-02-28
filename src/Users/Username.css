@@ -1,0 +1,29 @@
+.Usernamecontainer {
+  background-color:bisque;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.Usernamepic {
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  background-color: mistyrose;
+  border-radius: 15px;
+}
+.Usercontainer {
+  margin-left: 24%;
+  margin-right: 24%;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.Agecontainer{
+  display: flex;
+  background-color: mistyrose;
+  height: 100px;
+  padding: 24px;
+  border-radius: 15px;
+}
