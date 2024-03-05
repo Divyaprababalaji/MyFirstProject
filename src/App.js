@@ -1,5 +1,6 @@
 import Recipe from "./Recipes/Recipe";
-import Userlist from "./UsersList/Userlist";
+import Username from "./Users/Username";
+import Quote from "./Quotes/Quote";
 const App = () => {
   return (
     <>
@@ -8,8 +9,9 @@ const App = () => {
       {/* <AgeName /> */}
       {/* <ColorChange/> */}
       {/* <ColorChangeDD /> */}
-      <Recipe />
-      <Userlist />
+      {/* <Recipe /> */}
+      {/* <Username /> */}
+      <Quote />
     </>
   );
 };
