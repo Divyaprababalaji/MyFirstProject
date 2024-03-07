@@ -1,0 +1,29 @@
+.Todoscontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 24px;
+
+}
+.TodosDivList {
+  display: flex;
+  background-color: khaki;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid brown;
+  border-radius: 8px;
+  padding: 8px;
+  flex-direction: column;
+  width:550px;
+}
+.boxcontainer{
+  height: 200px;
+  width: 200px;
+  border: 2px solid yellowgreen;
+  margin-left: 43%;
+}
+.textboxcontainer{
+  margin-top: 15px;
+  margin-left: 43%;
+}
