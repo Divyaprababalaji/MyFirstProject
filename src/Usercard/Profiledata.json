@@ -1,0 +1,32 @@
+
+[
+  {
+    "Online": false,
+    "Url":"https://cdn.dummyjson.com/recipe-images/1.webp",
+    "Username": "James",
+    "id":"1",
+    "City": "Newyork",
+    "Role": "Front End Developer",
+    "Skills": ["HTML", "Css", "JS", "React"]
+  },
+
+  {
+    "Online": true,
+    "Url":"https://cdn.dummyjson.com/recipe-images/2.webp",
+    "Username": "Dhanush",
+    "id":"2",
+    "City": "Australia",
+    "Role": "Back End Developer",
+    "Skills": ["JAVA","Sql"]
+  },
+  {
+    
+    "Online": false,
+    "Url":"https://cdn.dummyjson.com/recipe-images/2.webp",
+    "Username": "Robert",
+    "id":"3",
+    "City": "California",
+    "Role": "Back End Developer",
+    "Skills": ["JAVA","Sql"]
+  }
+]

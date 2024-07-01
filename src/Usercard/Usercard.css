@@ -1,0 +1,52 @@
+.image_sec {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+/* #root {
+  display: flex;
+  justify-content: space-evenly;
+} */
+.cardcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkgray;
+    width: 330px;
+    color: white;
+    font-family: auto;
+    min-height:500px;
+}
+.username{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.city{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.p{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.button{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+.msgbtn{
+background-color: dodgerblue;
+border-color: dodgerblue;
+border-radius: 4px;
+color: white;
+padding: 10px 25px;
+}
+.flwbtn{
+  border-color:dodgerblue;
+  border-radius: 4px;
+  color: white;
+  background-color:chocolate;
+  padding: 10px 25px;
+}

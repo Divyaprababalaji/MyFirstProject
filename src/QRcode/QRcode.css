@@ -1,0 +1,58 @@
+.Appcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family:sans-serif;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+#inputdata{
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border-color: deepskyblue;
+    padding: 8px;
+    width:450px;
+}
+#imagedata{
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border-color: deepskyblue;
+    padding: 8px;
+    width: 450px;
+}
+.label{
+    color:deepskyblue ;
+}
+.Generatebutton{
+    margin-right: 14px;
+    border-color: deepskyblue;
+    background-color:deepskyblue;
+    color: white;
+    height: 32px;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+.Generatebutton:hover{
+    background-color: darkblue;
+}
+
+.Generatebutton-disabled{
+background-color: darkgrey;
+cursor: not-allowed;
+}
+.Downloadbutton{
+    border-color: green;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Downloadbutton:hover{
+    background-color: darkgreen;
+}
