@@ -1,0 +1,12 @@
+.formcontainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: darkgray;
+    margin: 15%;
+    width: 340px;
+}
+
+/* body{
+    background-color: antiquewhite;
+} */
