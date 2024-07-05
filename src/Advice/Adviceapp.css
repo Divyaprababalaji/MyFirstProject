@@ -1,0 +1,23 @@
+.advicecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 18%;
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: hotpink;
+}
+.advicebox{
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.advicebtn{
+    background-color: blue;
+    color: antiquewhite;
+    border-radius: 4px;
+    margin: 12px;
+    padding: 6px;
+}
