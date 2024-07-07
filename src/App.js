@@ -11,7 +11,8 @@ import Userlogin from "./Usercard/Userlogin";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import QRcode from "../src/QRcode/QRcode";
-import Advice from "../src/Advice/Adviceapp"
+import Advice from "../src/Advice/Adviceapp";
+import BMI from "./BMI/BMIcalculator";
 
 const App = () => {
   // const [selectedusercardprofiledata, setSelectedusercardprofiledata] =
@@ -57,7 +58,8 @@ const App = () => {
       // {/* <Userlogin/> */}
       <div>
         {/* <QRcode /> */}
-        <Advice />
+        {/* <Advice /> */}
+        <BMI/>
       </div>
     // </div>
   );
