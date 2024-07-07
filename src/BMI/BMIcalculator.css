@@ -1,0 +1,69 @@
+.BMIcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.heightdata{
+    display: flex;
+    row-gap: 12px;
+    flex-direction: column;
+    
+}
+.weightdata{
+    display: flex;
+    row-gap: 12px;
+    flex-direction: column;
+    margin-top: 24px;   
+
+}
+.heightinput{
+    height: 24px;
+    width: 350px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.weightinput{
+    height: 24px;
+    width: 350px;
+    border-radius: 4px;
+    border: 1px solid black;
+    
+}
+.btn{
+    row-gap: 12px;
+    height: 24px;
+    width: 350px;
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+}
+.calculatebtn{
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: deepskyblue;
+    color: white;
+}
+
+.clrbtn{
+    margin-left: 15px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+   
+}
+.result{
+    border: 1px solid #ccc;
+    margin-top: 18px;
+    width: 350px;
+}
+.error{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
