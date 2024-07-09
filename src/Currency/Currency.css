@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+.appcontainer{
+background-color: white;
+border-radius: 4px;
+padding: 10px 20px;
+width: 400px;
+}
+h1{
+    font-size: 18px;
+    font-family: emoji;
+    font-weight: 600;
+    text-align: center;
+    color: deepskyblue;
+    text-transform: uppercase;
+    border-bottom: 2px dashed #ccc;
+    border-top:  2px dashed #ccc;
+    margin-bottom: 28px;
+    padding: 10px 0px;
+}
+.box{
+    
+    width: 100%;
+    margin-top: 200px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-image: url('../images/Currency_img.png'); */
+
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+    
+}
+input:focus,
+select:focus{
+border-color: deepskyblue;
+}
+.result{
+    margin:14px 0px;
+    padding: 4px;
+    border: 2px dotted deepskyblue;
+    border-radius: 4px;
+}
+p{
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: deepskyblue;
+    font-size: 18px;
+}
