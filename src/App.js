@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 import QRcode from "../src/QRcode/QRcode";
 import Advice from "../src/Advice/Adviceapp";
 import BMI from "./BMI/BMIcalculator";
+import Currency from "./Currency/Currency";
 
 const App = () => {
   // const [selectedusercardprofiledata, setSelectedusercardprofiledata] =
@@ -59,7 +60,8 @@ const App = () => {
       <div>
         {/* <QRcode /> */}
         {/* <Advice /> */}
-        <BMI/>
+        {/* <BMI/> */}
+        <Currency/>
       </div>
     // </div>
   );
