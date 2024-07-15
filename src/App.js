@@ -14,6 +14,9 @@ import QRcode from "../src/QRcode/QRcode";
 import Advice from "../src/Advice/Adviceapp";
 import BMI from "./BMI/BMIcalculator";
 import Currency from "./Currency/Currency";
+import DigitalClock from "./DigitalClock/Digitalclock";
+import Password from "./SrongPassword/Password"
+
 
 const App = () => {
   // const [selectedusercardprofiledata, setSelectedusercardprofiledata] =
@@ -61,7 +64,9 @@ const App = () => {
         {/* <QRcode /> */}
         {/* <Advice /> */}
         {/* <BMI/> */}
-        <Currency/>
+        {/* <Currency/> */}
+        {/* <DigitalClock /> */}
+        <Password/>
       </div>
     // </div>
   );

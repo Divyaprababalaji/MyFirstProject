@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: darkorange;
+}
+.box{
+    background-color: white;
+    width: 250px;
+    padding: 20px 20px;
+    text-align: center;
+    margin-top:0 ;
+}
+.timer{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+body{
+    background-color: slategray;
+}
