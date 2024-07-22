@@ -15,7 +15,10 @@ import Advice from "../src/Advice/Adviceapp";
 import BMI from "./BMI/BMIcalculator";
 import Currency from "./Currency/Currency";
 import DigitalClock from "./DigitalClock/Digitalclock";
-import Password from "./SrongPassword/Password"
+import Password from "./SrongPassword/Password";
+import Quiz from "./Quizs/QuizApp";
+import Searchbox from "../src/Search/Searchbox";
+
 
 
 const App = () => {
@@ -66,7 +69,9 @@ const App = () => {
         {/* <BMI/> */}
         {/* <Currency/> */}
         {/* <DigitalClock /> */}
-        <Password/>
+        {/* <Password/> */}
+        {/* <Quiz/> */}
+        <Searchbox/>
       </div>
     // </div>
   );

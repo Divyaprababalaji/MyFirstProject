@@ -1,0 +1,68 @@
+.Appbox{
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 10px 10px;
+
+}
+*{
+   margin-bottom: 5px;
+}
+.Question-section p{
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px
+}
+.Question-no h2{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: deepskyblue;
+}
+.options button {
+    margin-right: 8px;
+    border-radius: 30px;
+    background-color: deepskyblue;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    min-height: 55px;
+    min-width: 100px;
+    max-height: 70px;
+}
+.options button:hover{
+filter: brightness(1.2);
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timer p{
+    color: black;
+}
+.Rstbtn button{
+    border-radius: 30px;
+    background-color: tomato;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.score-section h3{
+    color: black;
+}
