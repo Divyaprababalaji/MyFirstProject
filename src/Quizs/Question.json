@@ -1,0 +1,43 @@
+[
+    {
+        "question": "A flashing red traffic light signifies that a driver should do what?",
+        "options": ["stop","speed up","proceed with caution","honk the horn"],        
+        "answer": "stop",
+        "Qno":1
+      }, {
+        "question": "A knish is traditionally stuffed with what filling?",
+        "options":["potato","creamed corn","lemon custard", "raspberry jelly"],
+        
+        "answer": "potato",
+        "Qno":2
+      }, {
+        "question": "A pita is a type of what?",
+        "options":["fresh fruit","flat bread","French tart","friend bean dip"],
+        "answer": "flat bread",
+        "Qno":3
+      }, {
+        "question": "A portrait that comically exaggerates a person's physical traits is called a what?",
+        "options":["landscape","caricature","still life", "Impressionism"],
+        
+        "answer": "caricature",
+        "Qno":4
+      }, {
+        "question": "A second-year college student is usually called a what?",
+        "options": ["sophomore","senior","freshman","junior "],
+         
+        "answer": "sophomore",
+        "Qno":5
+      }, {
+        "question": "A student who earns a J.D. can begin his or her career as a what?",
+        "options": ["lawyer","bricklayer","doctor","accountant"],
+        "answer": "lawyer",
+        "Qno":6
+      }
+]
+
+
+
+
+
+
+      
